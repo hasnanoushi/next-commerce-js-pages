@@ -5,8 +5,8 @@ import styles from '../components/Styling.module.css';
 
 export default function Home() {
   return (<Layout onSearch={undefined}>
-    <img src={"banner1.jpg"}height={480}width={1480}></img>
-   <div className={styles.banner}> <img src={"fashionhaul.jpg"}height={450}width={900}></img>
+    <img src={"banner1.jpg"}height={480}width={1500}></img>
+   <div className={styles.banner}> <img src={"fashionhaul.jpg"}height={450}width={920}></img>
     <img src={"salel.jpg"}height={450}width={700}></img></div>
     <h1 className={styles.hometext}>SHOP BY CATEGORY!!!</h1>
     <div className={styles.banner}>
