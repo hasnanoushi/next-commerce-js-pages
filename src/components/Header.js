@@ -11,21 +11,8 @@ const Header = ({ onSearch }) => {
     onSearch(search);
   };
 
-//   return (
-//     <header>
-//       <nav>
-   
-//           <Link href="/">Home</Link>
-//          <Link href="/aboutus">About Us</Link>
-//         <Link href="/contactus">Contact Us</Link>
-//       <Link href="/contactus">Contact Us</Link>
-//       <Link href="/products">Products</Link>
-//           <Link href="/cart">Cart</Link>
-    
-//       </nav>
-//     </header>
-//   );
-// };
+
+
 return(
 <nav className="navbar navbar-expand-lg ">
   
