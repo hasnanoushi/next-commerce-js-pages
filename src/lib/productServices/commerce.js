@@ -1,8 +1,6 @@
-const API_KEY = "pk_5706029c2e2bfc0eedb4b7868770e08a6ac575a64e2fc";
 const fetchProducts = async () => {
-  const response = await fetch("https://api.chec.io/v1/products", {
+  const response = await fetch("https://fakestoreapi.com/products", {
     headers: {
-      "X-Authorization": API_KEY,
       Accept: "application/json",
       "Content-Type": "application/json",
     },
@@ -12,9 +10,8 @@ const fetchProducts = async () => {
 };
 
 const fetchProductById = async (id) => {
-  const response = await fetch(`https://api.chec.io/v1/products/${id}`, {
+  const response = await fetch(`https://fakestoreapi.com/products/${id}`, {
     headers: {
-      "X-Authorization": API_KEY,
       Accept: "application/json",
       "Content-Type": "application/json",
     },
